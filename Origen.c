@@ -7,15 +7,15 @@ int main() {
 
         setlocale(LC_ALL, "");
 
-        printf("Digite o n˙mero de ¡TOMOS DE CARBONO na molÈcula de combustÌvel:\n");
+        printf("Digite o n√∫mero de √ÅTOMOS DE CARBONO na mol√©cula de combust√≠vel:\n");
         int x = 0, y = 0;
         scanf("%d", &x);
 
-        printf("Digite o n˙mero de ¡TOMOS DE HIDROG NIO na molÈcula de combustÌvel:\n");
+        printf("Digite o n√∫mero de √ÅTOMOS DE HIDROG√äNIO na mol√©cula de combust√≠vel:\n");
         scanf("%d", &y);
         binbash
 
-        printf("FÛrmula do CombustÌvel:\n");
+        printf("F√≥rmula do Combust√≠vel:\n");
         printf("C H \n");
         printf(" %d %d", x , y);
         printf("\n");
@@ -42,10 +42,11 @@ int main() {
         return 0;
 }
 
-/*CrÈditos: ALGORITMO: ATLAS::ED.Moderna.*/
-/*COMPILADO SOB G++ ARCH LINUX*/
-/*LIVRE PARA DEMONSTRA«√O, ENSINO E PESQUISA*/
+/*Cr√©ditos: ALGORITMO: ATLAS::ED.Moderna.*/
+/*COMPILADO SOB G++ ARCH LINUX ISO-8859-1*/
+/*LIVRE PARA DEMONSTRA√á√ÉO, ENSINO E PESQUISA*/
 
-//--help O PROGRAMA CALCULA A EQUA«√O QUÕMICA BALANCEADA DA COMBUST√O DE UM HIDROCARBONETO SIMPLES (CxHy)
+//--help O PROGRAMA CALCULA A EQUA√á√ÉO QU√çMICA BALANCEADA DA COMBUST√ÉO DE UM HIDROCARBONETO SIMPLES (CxHy)
 //EXIBE O RESULTADO NO TERMINAL EM LINGUAGEM NATURAL
-//O ESCOPO PERMITE A EXTENS√O PARA OUTROS TIPOS DE COMBUSTÕVEIS E REA«’ES QUÕMICAS 
+
+//O ESCOPO PERMITE A EXTENS√ÉO PARA OUTROS TIPOS DE COMBUST√çVEIS E REA√á√ïES QU√çMICAS 
